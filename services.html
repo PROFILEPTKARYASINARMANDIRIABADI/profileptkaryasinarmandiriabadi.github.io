@@ -77,9 +77,9 @@
 
     <!-- Service Detail Modal -->
     <div id="serviceModal" class="fixed inset-0 z-[100] hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 transition-all duration-300">
-        <div class="bg-white max-w-3xl w-full rounded-3xl overflow-hidden relative shadow-2xl animate-fade-in flex flex-col max-h-[90vh]">
+        <div class="bg-white max-w-3xl w-full rounded-3xl overflow-hidden relative shadow-2xl animate-fade-in flex flex-col h-[90vh]">
             <button onclick="closeServiceModal()" class="absolute top-6 right-6 text-gray-400 hover:text-red-500 text-3xl font-bold transition-colors z-10">&times;</button>
-            <div class="p-8 overflow-y-auto">
+            <div class="p-6 md:p-8 overflow-y-auto flex-1 min-h-0">
                 <h3 id="modalTitle" class="text-3xl font-bold text-blue-900 mb-6 pr-10 border-b pb-4 uppercase tracking-tight"></h3>
                 <p class="text-sm text-gray-500 mb-2 font-bold uppercase tracking-widest">Pilih Proyek / Lokasi:</p>
                 <div id="projectTabs" class="flex flex-wrap gap-2 mb-6"></div>
