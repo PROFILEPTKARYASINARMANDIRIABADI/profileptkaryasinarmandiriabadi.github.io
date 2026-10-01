@@ -61,7 +61,7 @@ function toggleMenu() {
 
 /* ===================== STATS ===================== */
 const COMPANY_ESTABLISHED_DATE = '2025-06-08';
-const TOTAL_PROJECTS_COMPLETED = 1;
+const TOTAL_PROJECTS_COMPLETED = 6;
 
 function updateCompanyStats() {
     const experienceCountElement = document.getElementById('exp-count');
